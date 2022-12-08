@@ -1,0 +1,23 @@
+{
+  "name": "testwdioproxysample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-global": "export GLOBAL_AGENT_HTTP_PROXY=http://localhost:8888 && ./node_modules/.bin/wdio conf/withglobal.conf.js",
+    "test-no-global": "./node_modules/.bin/wdio conf/withoutglobal.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/browserstack-service": "^7.27.0",
+    "@wdio/cli": "^7.20.5",
+    "@wdio/local-runner": "^7.20.5",
+    "@wdio/mocha-framework": "^7.20.3",
+    "axios": "1.2.0",
+    "chai": "^4.3.6",
+    "global-agent": "^3.0.0",
+    "webdriverio": "^7.27.0"
+  }
+}
