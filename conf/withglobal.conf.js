@@ -32,7 +32,7 @@ exports.config = {
       'bstack:options': {
         os: 'OS X',
         osVersion: 'catalina',
-        buildName: 'wdio_test_dec8'
+        buildName: 'wdio_test_global_agent'
       },
     },
   ],
